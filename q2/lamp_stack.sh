@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Update Package Index
-apt update
+apt-get update
 
 # Install Apache2, MySQL, PHP
-apt install -y apache2 mysql-server php php-mysql libapache2-mod-php php-cli systemctl ufw xdg-open xdg-utils ss
+apt install -y apache2 mysql-server php php-mysql libapache2-mod-php php-cli systemd ufw xdg-open xdg-utils
 
 # Allow to run Apache on boot up
 
@@ -60,4 +60,4 @@ sed -i "s/username_here/${USERNAME}/g" wp-config.php
 
 /etc/apache2/sites-available
 
-sed -i 's#/var/www/html#root /var/www/html/wordpress#' 000-default.conf
+sed -i 's#/var/www/html# /var/www/html/wordpress#' 000-default.conf
