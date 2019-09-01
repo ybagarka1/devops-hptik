@@ -13,7 +13,7 @@ mysql -u root -BNe "select host,count(host) from processlist;" information_schem
 
 #iii. Bash command to get value of version number of 3 decimal points (first occurrence) from a file containing the JSON:
 
-cat file.json| grep -Po '"version":.*?[^\\.]{2}",'
+cat file.json| grep -Po '"version":.*?[^\\.]{2}"' | head -n 1
 
 #iv. Bash command to add these numbers from a file and find average upto 2 decimal points:
 
