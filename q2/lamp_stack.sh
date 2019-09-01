@@ -61,7 +61,3 @@ sed -i "s/username_here/${USERNAME}/g" wp-config.php
 /etc/apache2/sites-available
 
 sed -i 's#/var/www/html#root /var/www/html/wordpress#' 000-default.conf
-
-# Create info.php for testing php processing
-
-# Open localhost in the default browser
