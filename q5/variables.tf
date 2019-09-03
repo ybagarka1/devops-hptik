@@ -1,5 +1,5 @@
 variable "aws_ubuntu_ami" {
-  type = "string"
+  type    = "string"
   default = "ami-0d2692b6acea72ee6"
 }
 
