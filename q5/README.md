@@ -23,8 +23,14 @@ export AWS_ACCESS_KEY_ID=""
 export AWS_SECRET_ACCESS_KEY=""
 export AWS_DEFAULT_REGION=""
 
-# terraform init
+```bash
+terraform init
+```
 
-# terraform plan
+```bash
+terraform plan
+```
 
-# terraform apply
+```bash
+terraform apply
+```
