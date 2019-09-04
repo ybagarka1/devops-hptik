@@ -19,9 +19,9 @@ Once the above has been executed terraform will output the below parameters:
 
 # Set below parameters using command line
 
-export AWS_ACCESS_KEY_ID=""
-export AWS_SECRET_ACCESS_KEY=""
-export AWS_DEFAULT_REGION=""
+export AWS_ACCESS_KEY_ID=""  <br />
+export AWS_SECRET_ACCESS_KEY=""  <br />
+export AWS_DEFAULT_REGION=""  <br />
 
 ```bash
 terraform init
