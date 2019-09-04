@@ -89,3 +89,9 @@ terraform destroy
 # yes | if you want to proceed
 ```
 
+
+Once the script i.e scaling_devops_hptik.py is triggered the output will be an ec2 instance that will be 
+
+1. horizontal scaling - attached to the ELB. The instance type can be changed. elastic search specific ami can be used.
+2. vertical scaling - the instance type will be upgraded using the instance id.
+
